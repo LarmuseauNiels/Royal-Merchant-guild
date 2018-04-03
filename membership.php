@@ -75,12 +75,7 @@ function showform($user) {
 
 function showjoindiscord($user) {
     ?>
-    <section>
-        <p>Oh no 
-        <?php echo $user->username;?>
-        , Your not in or discord server yet!</p>
-        <a href="/discord">please join or discord server first</a>
-    </section>
+    <a class="logindiscord" href="discord">JOIN DISCORD FIRST</a>
     <?php
 }
 
