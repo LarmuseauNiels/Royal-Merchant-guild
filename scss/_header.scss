@@ -1,0 +1,56 @@
+$imagewidth: 150px;
+@font-face {
+font-family: hamillton;
+src: url(/assets/font/HAMILLTON.ttf); font-weight: 400;}
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body{
+  background-image: url("/assets/background/background1.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+.navigation{
+  height: 150px;
+  background-image: url("/assets/Logo_Transparent.png");
+  background-repeat: no-repeat;
+  background-size: $imagewidth 150px;
+  background-position: top center; 
+  text-align: center;
+  ul.left{
+    margin-right: $imagewidth/2;
+  }
+  ul.right{
+    margin-left: $imagewidth/2;
+    
+  }
+  ul{
+    padding: 0px;
+    width: 360px;
+    list-style-type: none;
+    display: inline-block;
+      li{
+        width: 100px;
+        display: table-cell;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        float: left;
+        margin-top: $imagewidth/2-10;
+        a{
+          display: block;
+          color: lightgray;
+          font-family: 'Open Sans Condensed', sans-serif;
+          text-decoration: none;
+          font-size: 21px;
+        }
+      }
+      li.active>a{
+        color: white;
+      }
+   }
+}
