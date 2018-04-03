@@ -2,7 +2,6 @@
  class output
  {
 
-    
     public static function header($page){ 
         ?>
 <!DOCTYPE html>
@@ -30,8 +29,7 @@
     </header>
     <?php
     }
-
-
+    
     public static function footer(){ 
         ?>
 <script  src="js/index.js"></script>

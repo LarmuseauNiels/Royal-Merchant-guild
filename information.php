@@ -10,7 +10,6 @@ output::header("information");
     <p>We require you to be fluent in English or at least be able to have a       civilized conversation.</p>
     <p>We accept players from both platforms, however; Discord is our meeting point so we expect you to be active here.</p>
     <p>At least 18 years of age, exceptions may be made on individual cases.</p>
-
     <p class="title"> Regulations:</p>
     <p>We do not tolerate modding or cheating in Sea of Thieves.</p>
     <p>We do not tolerate hate speech or foul language on our discord or website.</p>

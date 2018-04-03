@@ -85,5 +85,5 @@ function showjoindiscord($user) {
 }
 
 function showloginwithdiscord($provider) {
-    echo '<a href="'.'https://discordapp.com/api/oauth2/authorize?client_id=430344729259933697&redirect_uri=https%3A%2F%2Froyalmerchantguild.eu%2Fmembership&response_type=code&scope=email%20guilds%20identify'.'">Login with Discord</a>';
+    echo '<a class="logindiscord" href="'.'https://discordapp.com/api/oauth2/authorize?client_id=430344729259933697&redirect_uri=https%3A%2F%2Froyalmerchantguild.eu%2Fmembership&response_type=code&scope=email%20guilds%20identify'.'">LOGIN WITH DISCORD</a>';
 }
